@@ -1,9 +1,8 @@
 package com.javasm.springbootmybatisplus.service.impl;
 
 import com.javasm.springbootmybatisplus.entity.Brand;
-import com.javasm.springbootmybatisplus.mapper.BrandMapper;
 import com.javasm.springbootmybatisplus.service.IBrandService;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.javasm.springbootmybatisplus.service.base.impl.BaseServiceImpl;
 import org.springframework.stereotype.Service;
 
 /**
@@ -15,6 +14,6 @@ import org.springframework.stereotype.Service;
  * @since 2021-07-02
  */
 @Service
-public class BrandServiceImpl extends ServiceImpl<BrandMapper, Brand> implements IBrandService {
+public class BrandServiceImpl extends BaseServiceImpl<Brand> implements IBrandService {
 
 }

@@ -1,7 +1,7 @@
 package com.javasm.springbootmybatisplus.service;
 
 import com.javasm.springbootmybatisplus.entity.AdminCopy;
-import com.baomidou.mybatisplus.extension.service.IService;
+import com.javasm.springbootmybatisplus.service.base.BaseService;
 
 /**
  * <p>
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @author whl
  * @since 2021-07-02
  */
-public interface IAdminCopyService extends IService<AdminCopy> {
+public interface IAdminCopyService extends BaseService<AdminCopy> {
 
 }

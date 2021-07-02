@@ -4,6 +4,7 @@ import com.javasm.springbootmybatisplus.entity.Admin;
 import com.javasm.springbootmybatisplus.mapper.AdminMapper;
 import com.javasm.springbootmybatisplus.service.IAdminService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.javasm.springbootmybatisplus.service.base.impl.BaseServiceImpl;
 import org.springframework.stereotype.Service;
 
 /**
@@ -15,6 +16,6 @@ import org.springframework.stereotype.Service;
  * @since 2021-07-02
  */
 @Service
-public class AdminServiceImpl extends ServiceImpl<AdminMapper, Admin> implements IAdminService {
+public class AdminServiceImpl extends BaseServiceImpl<Admin> implements IAdminService{
 
 }

@@ -1,9 +1,8 @@
 package com.javasm.springbootmybatisplus.service.impl;
 
 import com.javasm.springbootmybatisplus.entity.Dept;
-import com.javasm.springbootmybatisplus.mapper.DeptMapper;
 import com.javasm.springbootmybatisplus.service.IDeptService;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.javasm.springbootmybatisplus.service.base.impl.BaseServiceImpl;
 import org.springframework.stereotype.Service;
 
 /**
@@ -15,6 +14,6 @@ import org.springframework.stereotype.Service;
  * @since 2021-07-02
  */
 @Service
-public class DeptServiceImpl extends ServiceImpl<DeptMapper, Dept> implements IDeptService {
+public class DeptServiceImpl extends BaseServiceImpl<Dept> implements IDeptService {
 
 }

@@ -1,7 +1,7 @@
 package com.javasm.springbootmybatisplus.mapper;
 
 import com.javasm.springbootmybatisplus.entity.AdminCopy;
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.javasm.springbootmybatisplus.mapper.base.MyBaseMapper;
 
 /**
  * <p>
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @author whl
  * @since 2021-07-02
  */
-public interface AdminCopyMapper extends BaseMapper<AdminCopy> {
+public interface AdminCopyMapper extends MyBaseMapper<AdminCopy> {
 
 }

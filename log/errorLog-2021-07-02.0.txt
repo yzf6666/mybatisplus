@@ -1,0 +1,126 @@
+2021-07-02 13:38:52 | ERROR | main:o.s.b.d.LoggingFailureAnalysisReporter:40 | 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level' to java.util.Map<java.lang.String, org.springframework.boot.logging.LogLevel>:
+
+    Reason: org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.String] to type [java.util.Map<java.lang.String, org.springframework.boot.logging.LogLevel>]
+
+Action:
+
+Update your application's configuration
+
+2021-07-02 13:39:57 | ERROR | main:o.s.b.d.LoggingFailureAnalysisReporter:40 | 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mapper in com.javasm.springbootmybatisplus.service.base.impl.BaseServiceImpl required a single bean, but 7 were found:
+	- adminCopyMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\AdminCopyMapper.class]
+	- adminMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\AdminMapper.class]
+	- brandMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\BrandMapper.class]
+	- categoryMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\CategoryMapper.class]
+	- deptMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\DeptMapper.class]
+	- goodMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\GoodMapper.class]
+	- myBaseMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\base\MyBaseMapper.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+2021-07-02 13:41:40 | ERROR | main:o.s.b.d.LoggingFailureAnalysisReporter:40 | 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mapper in com.javasm.springbootmybatisplus.service.base.impl.BaseServiceImpl required a single bean, but 7 were found:
+	- adminCopyMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\AdminCopyMapper.class]
+	- adminMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\AdminMapper.class]
+	- brandMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\BrandMapper.class]
+	- categoryMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\CategoryMapper.class]
+	- deptMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\DeptMapper.class]
+	- goodMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\GoodMapper.class]
+	- myBaseMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\base\MyBaseMapper.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+2021-07-02 13:43:28 | ERROR | main:o.s.b.d.LoggingFailureAnalysisReporter:40 | 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mapper in com.javasm.springbootmybatisplus.service.base.impl.BaseServiceImpl required a single bean, but 7 were found:
+	- adminCopyMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\AdminCopyMapper.class]
+	- adminMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\AdminMapper.class]
+	- brandMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\BrandMapper.class]
+	- categoryMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\CategoryMapper.class]
+	- deptMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\DeptMapper.class]
+	- goodMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\GoodMapper.class]
+	- myBaseMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\base\MyBaseMapper.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+2021-07-02 13:44:33 | ERROR | main:o.s.b.d.LoggingFailureAnalysisReporter:40 | 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mapper in com.javasm.springbootmybatisplus.service.base.impl.BaseServiceImpl required a single bean, but 7 were found:
+	- adminCopyMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\AdminCopyMapper.class]
+	- adminMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\AdminMapper.class]
+	- brandMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\BrandMapper.class]
+	- categoryMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\CategoryMapper.class]
+	- deptMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\DeptMapper.class]
+	- goodMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\GoodMapper.class]
+	- myBaseMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\base\MyBaseMapper.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+2021-07-02 13:45:17 | ERROR | main:o.s.b.d.LoggingFailureAnalysisReporter:40 | 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mapper in com.javasm.springbootmybatisplus.service.base.impl.BaseServiceImpl required a single bean, but 7 were found:
+	- adminCopyMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\AdminCopyMapper.class]
+	- adminMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\AdminMapper.class]
+	- brandMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\BrandMapper.class]
+	- categoryMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\CategoryMapper.class]
+	- deptMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\DeptMapper.class]
+	- goodMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\GoodMapper.class]
+	- myBaseMapper: defined in file [E:\workspace\spring-boot-mybatisplus1\target\classes\com\javasm\springbootmybatisplus\mapper\base\MyBaseMapper.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+

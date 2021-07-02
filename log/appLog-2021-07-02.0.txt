@@ -1,0 +1,142 @@
+2021-07-02 20:25:03,416 | INFO  | main:o.s.b.t.c.SpringBootTestContextBootstrapper:305 | Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.javasm.springbootmybatisplus.SpringBootMybatisplusApplicationTests], using SpringBootContextLoader
+2021-07-02 20:25:03,427 | INFO  | main:o.s.t.c.s.AbstractContextLoader:264 | Could not detect default resource locations for test class [com.javasm.springbootmybatisplus.SpringBootMybatisplusApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-07-02 20:25:03,428 | INFO  | main:o.s.t.c.s.AnnotationConfigContextLoaderUtils:83 | Could not detect default configuration classes for test class [com.javasm.springbootmybatisplus.SpringBootMybatisplusApplicationTests]: SpringBootMybatisplusApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-07-02 20:37:09,384 | INFO  | main:c.j.s.SpringbootmybatisplusApplication:55 | Starting SpringbootmybatisplusApplication using Java 1.8.0_102 on PC-20201216GNIR with PID 10528 (E:\workspace\spring-boot-mybatisplus1\target\classes started by Administrator in E:\workspace\spring-boot-mybatisplus1)
+2021-07-02 20:37:09,387 | INFO  | main:c.j.s.SpringbootmybatisplusApplication:659 | No active profile set, falling back to default profiles: default
+2021-07-02 20:37:09,916 | INFO  | main:o.s.d.r.c.RepositoryConfigurationDelegate:132 | Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-07-02 20:37:09,928 | INFO  | main:o.s.d.r.c.RepositoryConfigurationDelegate:201 | Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2021-07-02 20:37:10,321 | INFO  | main:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2021-07-02 20:37:10,329 | INFO  | main:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2021-07-02 20:37:10,329 | INFO  | main:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2021-07-02 20:37:10,329 | INFO  | main:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-02 20:37:10,331 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2021-07-02 20:37:10,331 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2021-07-02 20:37:10,331 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2021-07-02 20:37:10,331 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-07-02 20:37:10,333 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-07-02 20:37:10,396 | INFO  | main:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2021-07-02 20:37:10,396 | INFO  | main:o.s.b.w.s.c.ServletWebServerApplicationContext:290 | Root WebApplicationContext: initialization completed in 962 ms
+2021-07-02 20:37:11,096 | INFO  | main:c.a.d.p.DruidDataSource:930 | {dataSource-1} inited
+2021-07-02 20:37:11,224 | INFO  | main:o.a.c.h.Http11NioProtocol:173 | Starting ProtocolHandler ["http-nio-8080"]
+2021-07-02 20:37:11,237 | INFO  | main:o.s.b.w.e.t.TomcatWebServer:220 | Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-02 20:37:11,245 | INFO  | main:c.j.s.SpringbootmybatisplusApplication:61 | Started SpringbootmybatisplusApplication in 2.24 seconds (JVM running for 2.874)
+2021-07-02 20:37:37,190 | INFO  | http-nio-8080-exec-1:o.a.c.c.C.[.[.[/]:173 | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-02 20:37:37,191 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:525 | Initializing Servlet 'dispatcherServlet'
+2021-07-02 20:37:37,192 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:547 | Completed initialization in 1 ms
+2021-07-02 20:39:16,804 | INFO  | main:c.j.s.SpringbootmybatisplusApplication:55 | Starting SpringbootmybatisplusApplication using Java 1.8.0_102 on PC-20201216GNIR with PID 10720 (E:\workspace\spring-boot-mybatisplus1\target\classes started by Administrator in E:\workspace\spring-boot-mybatisplus1)
+2021-07-02 20:39:16,807 | INFO  | main:c.j.s.SpringbootmybatisplusApplication:659 | No active profile set, falling back to default profiles: default
+2021-07-02 20:39:17,285 | INFO  | main:o.s.d.r.c.RepositoryConfigurationDelegate:132 | Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-07-02 20:39:17,298 | INFO  | main:o.s.d.r.c.RepositoryConfigurationDelegate:201 | Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2021-07-02 20:39:17,656 | INFO  | main:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2021-07-02 20:39:17,663 | INFO  | main:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2021-07-02 20:39:17,664 | INFO  | main:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2021-07-02 20:39:17,664 | INFO  | main:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-02 20:39:17,665 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2021-07-02 20:39:17,666 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2021-07-02 20:39:17,666 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2021-07-02 20:39:17,666 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-07-02 20:39:17,669 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-07-02 20:39:17,726 | INFO  | main:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2021-07-02 20:39:17,726 | INFO  | main:o.s.b.w.s.c.ServletWebServerApplicationContext:290 | Root WebApplicationContext: initialization completed in 877 ms
+2021-07-02 20:39:18,387 | INFO  | main:c.a.d.p.DruidDataSource:930 | {dataSource-1} inited
+2021-07-02 20:39:18,507 | INFO  | main:o.a.c.h.Http11NioProtocol:173 | Starting ProtocolHandler ["http-nio-8080"]
+2021-07-02 20:39:18,519 | INFO  | main:o.s.b.w.e.t.TomcatWebServer:220 | Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-02 20:39:18,528 | INFO  | main:c.j.s.SpringbootmybatisplusApplication:61 | Started SpringbootmybatisplusApplication in 2.065 seconds (JVM running for 2.694)
+2021-07-02 20:39:30,935 | INFO  | http-nio-8080-exec-1:o.a.c.c.C.[.[.[/]:173 | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-02 20:39:30,936 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:525 | Initializing Servlet 'dispatcherServlet'
+2021-07-02 20:39:30,937 | INFO  | http-nio-8080-exec-1:o.s.w.s.DispatcherServlet:547 | Completed initialization in 1 ms
+2021-07-02 21:39:56,047 | INFO  | main:c.j.s.SpringbootmybatisplusApplication:55 | Starting SpringbootmybatisplusApplication using Java 1.8.0_102 on PC-20201216GNIR with PID 3888 (E:\workspace\spring-boot-mybatisplus1\target\classes started by Administrator in E:\workspace\spring-boot-mybatisplus1)
+2021-07-02 21:39:56,051 | INFO  | main:c.j.s.SpringbootmybatisplusApplication:659 | No active profile set, falling back to default profiles: default
+2021-07-02 21:39:56,579 | INFO  | main:o.s.d.r.c.RepositoryConfigurationDelegate:132 | Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-07-02 21:39:56,593 | INFO  | main:o.s.d.r.c.RepositoryConfigurationDelegate:201 | Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2021-07-02 21:39:56,966 | INFO  | main:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2021-07-02 21:39:56,973 | INFO  | main:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2021-07-02 21:39:56,973 | INFO  | main:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2021-07-02 21:39:56,974 | INFO  | main:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-02 21:39:56,975 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2021-07-02 21:39:56,975 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2021-07-02 21:39:56,975 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2021-07-02 21:39:56,976 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-07-02 21:39:56,978 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-07-02 21:39:57,040 | INFO  | main:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2021-07-02 21:39:57,040 | INFO  | main:o.s.b.w.s.c.ServletWebServerApplicationContext:290 | Root WebApplicationContext: initialization completed in 934 ms
+2021-07-02 21:39:57,265 | INFO  | main:o.a.c.c.StandardService:173 | Stopping service [Tomcat]
+2021-07-02 21:39:57,281 | INFO  | main:o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-02 21:41:38,693 | INFO  | main:c.j.s.SpringbootmybatisplusApplication:55 | Starting SpringbootmybatisplusApplication using Java 1.8.0_102 on PC-20201216GNIR with PID 12136 (E:\workspace\spring-boot-mybatisplus1\target\classes started by Administrator in E:\workspace\spring-boot-mybatisplus1)
+2021-07-02 21:41:38,697 | INFO  | main:c.j.s.SpringbootmybatisplusApplication:659 | No active profile set, falling back to default profiles: default
+2021-07-02 21:41:39,236 | INFO  | main:o.s.d.r.c.RepositoryConfigurationDelegate:132 | Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-07-02 21:41:39,255 | INFO  | main:o.s.d.r.c.RepositoryConfigurationDelegate:201 | Finished Spring Data repository scanning in 11 ms. Found 0 JDBC repository interfaces.
+2021-07-02 21:41:39,752 | INFO  | main:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2021-07-02 21:41:39,760 | INFO  | main:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2021-07-02 21:41:39,760 | INFO  | main:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2021-07-02 21:41:39,761 | INFO  | main:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-02 21:41:39,762 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2021-07-02 21:41:39,762 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2021-07-02 21:41:39,762 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2021-07-02 21:41:39,762 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-07-02 21:41:39,765 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-07-02 21:41:39,826 | INFO  | main:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2021-07-02 21:41:39,826 | INFO  | main:o.s.b.w.s.c.ServletWebServerApplicationContext:290 | Root WebApplicationContext: initialization completed in 1082 ms
+2021-07-02 21:41:40,066 | INFO  | main:o.a.c.c.StandardService:173 | Stopping service [Tomcat]
+2021-07-02 21:41:40,084 | INFO  | main:o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-02 21:43:27,066 | INFO  | main:c.j.s.SpringbootmybatisplusApplication:55 | Starting SpringbootmybatisplusApplication using Java 1.8.0_102 on PC-20201216GNIR with PID 6936 (E:\workspace\spring-boot-mybatisplus1\target\classes started by Administrator in E:\workspace\spring-boot-mybatisplus1)
+2021-07-02 21:43:27,069 | INFO  | main:c.j.s.SpringbootmybatisplusApplication:659 | No active profile set, falling back to default profiles: default
+2021-07-02 21:43:27,612 | INFO  | main:o.s.d.r.c.RepositoryConfigurationDelegate:132 | Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-07-02 21:43:27,625 | INFO  | main:o.s.d.r.c.RepositoryConfigurationDelegate:201 | Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2021-07-02 21:43:27,996 | INFO  | main:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2021-07-02 21:43:28,002 | INFO  | main:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2021-07-02 21:43:28,003 | INFO  | main:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2021-07-02 21:43:28,003 | INFO  | main:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-02 21:43:28,004 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2021-07-02 21:43:28,005 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2021-07-02 21:43:28,005 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2021-07-02 21:43:28,005 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-07-02 21:43:28,008 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-07-02 21:43:28,064 | INFO  | main:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2021-07-02 21:43:28,064 | INFO  | main:o.s.b.w.s.c.ServletWebServerApplicationContext:290 | Root WebApplicationContext: initialization completed in 946 ms
+2021-07-02 21:43:28,286 | INFO  | main:o.a.c.c.StandardService:173 | Stopping service [Tomcat]
+2021-07-02 21:43:28,302 | INFO  | main:o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-02 21:44:32,123 | INFO  | main:c.j.s.SpringbootmybatisplusApplication:55 | Starting SpringbootmybatisplusApplication using Java 1.8.0_102 on PC-20201216GNIR with PID 1980 (E:\workspace\spring-boot-mybatisplus1\target\classes started by Administrator in E:\workspace\spring-boot-mybatisplus1)
+2021-07-02 21:44:32,126 | INFO  | main:c.j.s.SpringbootmybatisplusApplication:659 | No active profile set, falling back to default profiles: default
+2021-07-02 21:44:32,633 | INFO  | main:o.s.d.r.c.RepositoryConfigurationDelegate:132 | Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-07-02 21:44:32,647 | INFO  | main:o.s.d.r.c.RepositoryConfigurationDelegate:201 | Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2021-07-02 21:44:33,020 | INFO  | main:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2021-07-02 21:44:33,027 | INFO  | main:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2021-07-02 21:44:33,028 | INFO  | main:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2021-07-02 21:44:33,028 | INFO  | main:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-02 21:44:33,029 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2021-07-02 21:44:33,029 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2021-07-02 21:44:33,030 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2021-07-02 21:44:33,030 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-07-02 21:44:33,032 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-07-02 21:44:33,094 | INFO  | main:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2021-07-02 21:44:33,095 | INFO  | main:o.s.b.w.s.c.ServletWebServerApplicationContext:290 | Root WebApplicationContext: initialization completed in 926 ms
+2021-07-02 21:44:33,316 | INFO  | main:o.a.c.c.StandardService:173 | Stopping service [Tomcat]
+2021-07-02 21:44:33,331 | INFO  | main:o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-02 21:45:15,977 | INFO  | main:c.j.s.SpringbootmybatisplusApplication:55 | Starting SpringbootmybatisplusApplication using Java 1.8.0_102 on PC-20201216GNIR with PID 8224 (E:\workspace\spring-boot-mybatisplus1\target\classes started by Administrator in E:\workspace\spring-boot-mybatisplus1)
+2021-07-02 21:45:15,980 | INFO  | main:c.j.s.SpringbootmybatisplusApplication:659 | No active profile set, falling back to default profiles: default
+2021-07-02 21:45:16,482 | INFO  | main:o.s.d.r.c.RepositoryConfigurationDelegate:132 | Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-07-02 21:45:16,495 | INFO  | main:o.s.d.r.c.RepositoryConfigurationDelegate:201 | Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2021-07-02 21:45:16,896 | INFO  | main:o.s.b.w.e.t.TomcatWebServer:108 | Tomcat initialized with port(s): 8080 (http)
+2021-07-02 21:45:16,903 | INFO  | main:o.a.c.h.Http11NioProtocol:173 | Initializing ProtocolHandler ["http-nio-8080"]
+2021-07-02 21:45:16,903 | INFO  | main:o.a.c.c.StandardService:173 | Starting service [Tomcat]
+2021-07-02 21:45:16,903 | INFO  | main:o.a.c.c.StandardEngine:173 | Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-02 21:45:16,905 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | An older version [1.2.27] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2021-07-02 21:45:16,905 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2021-07-02 21:45:16,905 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2021-07-02 21:45:16,905 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-07-02 21:45:16,908 | INFO  | main:o.a.c.c.AprLifecycleListener:173 | OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-07-02 21:45:16,966 | INFO  | main:o.a.c.c.C.[.[.[/]:173 | Initializing Spring embedded WebApplicationContext
+2021-07-02 21:45:16,966 | INFO  | main:o.s.b.w.s.c.ServletWebServerApplicationContext:290 | Root WebApplicationContext: initialization completed in 946 ms
+2021-07-02 21:45:17,194 | INFO  | main:o.a.c.c.StandardService:173 | Stopping service [Tomcat]
+2021-07-02 21:45:17,209 | INFO  | main:o.s.b.a.l.ConditionEvaluationReportLoggingListener:136 | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
